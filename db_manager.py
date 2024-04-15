@@ -79,8 +79,6 @@ class DBManager:
         cur.execute("DROP DATABASE IF EXISTS course_work_5")
         cur.execute("CREATE DATABASE course_work_5")
 
-        #self.conn.close()
-
         with self.conn:
             with self.conn.cursor() as cur:
                 cur.execute("""

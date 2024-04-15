@@ -39,5 +39,4 @@ def main():
         else:
             print('Неправильный запрос')
 
-
 main()
